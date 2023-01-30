@@ -1,0 +1,132 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Aboreto', cursive;
+}
+/* navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+#logo img{
+    height: 90px;
+    width: 130px;
+}
+.item{
+    text-decoration: none;
+    list-style: none;
+}
+#navbar ul{
+     display: flex;
+     
+}
+#navbar ul li {
+   
+    padding: 10px;
+    list-style: none;
+    font-size: 1.3rem;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+    display: block;
+    color: white;
+    border-radius: 20%;
+}
+#navbar ul li a:hover{
+   color: black;
+   background-color:white;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+/* home */
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+     height: 220px; 
+   
+}
+#home::before {
+    content: "";
+    background-image: url(/Images/p10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity:0.8
+   
+}
+.heading{
+    color:black;
+    text-align: center;
+    font-size:2.3em;
+    margin: -10px;
+    padding: 0px;
+
+}
+#home p{
+    color: black;
+      
+}
+.btn{
+    border-radius: 5px;
+    background-color: antiquewhite;
+    border-radius: 2px solid white;
+    color: black;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.btn:hover{
+    background-color:rgb(74, 120, 170);
+    cursor: pointer;
+}
+.service{
+    
+    margin: 160px;
+    position: relative;
+    
+
+}
+.box{
+    align-items: center;
+    justify-content: center;
+    border: 2px solid red;
+    border-radius: 16px;
+    height: 220px;
+    width: 290px;
+    margin: -110px;
+    
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+}
+.box img{
+    height: 220px;
+    width: 290px;
+    border-radius: 15px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+    
+    
+     
+
+    
